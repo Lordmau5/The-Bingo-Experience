@@ -1,0 +1,3160 @@
+{
+	"id": "Yakuza 0",
+	"name": "Yakuza 0",
+	"short_description": "Short Description",
+	"description": "---\n__Advertisement :)__\n\n- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image\n  resize in browser.\n- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly\n  i18n with plurals support and easy syntax.\n\nYou will like those projects!\n\n---\n\n# h1 Heading 8-)\n## h2 Heading\n### h3 Heading\n#### h4 Heading\n##### h5 Heading\n###### h6 Heading\n\n\n## Horizontal Rules\n\n___\n\n---\n\n***\n\n\n## Typographic replacements\n\nEnable typographer option to see result.\n\n(c) (C) (r) (R) (tm) (TM) (p) (P) +-\n\ntest.. test... test..... test?..... test!....\n\n!!!!!! ???? ,,  -- ---\n\n\"Smartypants, double quotes\" and 'single quotes'\n\n\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n\n\n## Blockquotes\n\n\n> Blockquotes can also be nested...\n>> ...by using additional greater-than signs right next to each other...\n> > > ...or with spaces between arrows.\n\n\n## Lists\n\nUnordered\n\n+ Create a list by starting a line with `+`, `-`, or `*`\n+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n+ Very easy!\n\nOrdered\n\n1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n\n\n1. You can use sequential numbers...\n1. ...or keep all the numbers as `1.`\n\nStart numbering with offset:\n\n57. foo\n1. bar\n\n\n## Code\n\nInline `code`\n\nIndented code\n\n    // Some comments\n    line 1 of code\n    line 2 of code\n    line 3 of code\n\n\nBlock code \"fences\"\n\n```\nSample text here...\n```\n\nSyntax highlighting\n\n``` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n```\n\n## Tables\n\n| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\nRight aligned columns\n\n| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\n\n## Links\n\n[link text](http://dev.nodeca.com)\n\n[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")\n\nAutoconverted link https://github.com/nodeca/pica (enable linkify to see)\n\n\n## Images\n\n![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg \"The Stormtroopocat\")\n\nLike links, Images also have a footnote style syntax\n\n![Alt text][id]\n\nWith a reference later in the document defining the URL location:\n\n[id]: https://octodex.github.com/images/dojocat.jpg  \"The Dojocat\"\n\n\n## Plugins\n\nThe killer feature of `markdown-it` is very effective support of\n[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).\n\n\n### [Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\nsee [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.\n\n\n### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)\n\n- 19^th^\n- H~2~O\n\n\n### [<ins>](https://github.com/markdown-it/markdown-it-ins)\n\n++Inserted text++\n\n\n### [<mark>](https://github.com/markdown-it/markdown-it-mark)\n\n==Marked text==\n\n\n### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)\n\nFootnote 1 link[^first].\n\nFootnote 2 link[^second].\n\nInline footnote^[Text of inline footnote] definition.\n\nDuplicated footnote reference[^second].\n\n[^first]: Footnote **can have markup**\n\n    and multiple paragraphs.\n\n[^second]: Footnote text.\n\n\n### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)\n\nTerm 1\n\n:   Definition 1\nwith lazy continuation.\n\nTerm 2 with *inline markup*\n\n:   Definition 2\n\n        { some code, part of Definition 2 }\n\n    Third paragraph of definition 2.\n\n_Compact style:_\n\nTerm 1\n  ~ Definition 1\n\nTerm 2\n  ~ Definition 2a\n  ~ Definition 2b\n\n\n### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)\n\nThis is HTML abbreviation example.\n\nIt converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.\n\n*[HTML]: Hyper Text Markup Language\n\n### [Custom containers](https://github.com/markdown-it/markdown-it-container)\n\n::: warning\n*here be dragons*\n:::",
+	"items": [
+		{
+			"name": "Adventure",
+			"goal_lists": [
+				{
+					"name": "Talk to people",
+					"goals": [
+						{
+							"name": "Talk to people 50 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Talk to people 100 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Talk to people 300 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Dine at eateries",
+					"goals": [
+						{
+							"name": "Dine at eateries 10 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Dine at eateries 30 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Dine at eateries 50 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Dine at eateries 100 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy from Dream Machines",
+					"goals": [
+						{
+							"name": "Buy from Dream Machines 5 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy from Dream Machines 10 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy from Dream Machines 20 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy from Dream Machines 50 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Entertain yourself",
+					"goals": [
+						{
+							"name": "Entertain yourself 10 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Entertain yourself 30 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Entertain yourself 50 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Entertain yourself 100 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Eat food items",
+					"goals": [
+						{
+							"name": "Eat 5 food items",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Eat 15 food items",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Eat 30 food items",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Eat medicine items",
+					"goals": [
+						{
+							"name": "Eat 5 medicine items",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Eat 15 medicine items",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Eat 30 medicine items",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Travel by taxi",
+					"goals": [
+						{
+							"name": "Travel by taxi 5 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel by taxi 15 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel by taxi 30 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Travel on foot",
+					"goals": [
+						{
+							"name": "Travel 20km on foot",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel 50km on foot",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel 100km on foot",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Travel by dashing",
+					"goals": [
+						{
+							"name": "Travel 2km by dashing",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel 5km by dashing",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Travel 10km by dashing",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Earn money",
+					"goals": [
+						{
+							"name": "Earn a total of 20 mil yen",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 50 mil yen",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 100 mil yen",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 1 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 50 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Spend money",
+					"goals": [
+						{
+							"name": "Spend a total of 1 mil yen",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Spend a total of 10 mil yen",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Spend a total of 100 mil yen",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Spend a total of 1 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Spend a total of 5 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Spend a total of 10 bil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Scatter money",
+					"goals": [
+						{
+							"name": "Scatter a total of 1 mil yen",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Scatter a total of 3 mil yen",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Scatter a total of 5 mil yen",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Scatter a total of 10 mil yen",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect telephone cards (Kiryu)",
+					"goals": [
+						{
+							"name": "Collect 5 telephone cards (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 20 telephone cards (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 45 telephone cards (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect telephone cards (Majima)",
+					"goals": [
+						{
+							"name": "Collect 5 telephone cards (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 20 telephone cards (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 45 telephone cards (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Watch different video clips",
+					"goals": [
+						{
+							"name": "Watch 5 different video clips",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Watch 15 different video clips",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Watch 30 different video clips",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Complete dineries",
+					"goals": [
+						{
+							"name": "Complete Dinery (Gindaco)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Yoronotaki)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Ringer Hut)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Fuji Soba)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Akaushimaru)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Tengokuken)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Sushi Gin)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Cafe Alps)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Kanrai)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Smile Burger)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Maharaja)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Heroine)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Earth Angel)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Shellac)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Vincent)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Tsuruhashi Fugetsu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Ganko Sushi)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Kinryu Ramen)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Kani Douraku)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Zuboraya)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Kushikatsu Daruma)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Komian)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Utahime)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Dinery (Shot Bar STIJL)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle",
+			"goal_lists": [
+				{
+					"name": "Defeat enemies on the street",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies on the street",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 150 enemies on the street",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 300 enemies on the street",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 500 enemies on the street",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Brawler Style (Kiryu)",
+					"goals": [
+						{
+							"name": "Defeat 5 enemies in the Brawler Style (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Brawler Style (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Brawler Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Rush Style (Kiryu)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Rush Style (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Rush Style (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Rush Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Beast Style (Kiryu)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Beast Style (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Beast Style (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Beast Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Dragon Style (Kiryu)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Dragon Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Dragon Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Dragon Style (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Thug Style (Majima)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Thug Style (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Thug Style (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Thug Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Slugger Style (Majima)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Slugger Style (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Slugger Style (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Slugger Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Breaker Style (Majima)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Breaker Style (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Breaker Style (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Breaker Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies in the Mad Dog Style (Majima)",
+					"goals": [
+						{
+							"name": "Defeat 50 enemies in the Mad Dog Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies in the Mad Dog Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 200 enemies in the Mad Dog Style (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Help attack victims around town",
+					"goals": [
+						{
+							"name": "Help 5 attack victims around town",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Help 15 attack victims around town",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Help 30 attack victims around town",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Win coliseum tournaments",
+					"goals": [
+						{
+							"name": "Win 10 coliseum tournaments",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 20 coliseum tournaments",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 30 coliseum tournaments",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 40 coliseum tournaments",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 50 coliseum tournaments",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat coliseum opponents",
+					"goals": [
+						{
+							"name": "Defeat 5 coliseum opponents",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 15 coliseum opponents",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 25 coliseum opponents",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat nouveau riche enemies",
+					"goals": [
+						{
+							"name": "Defeat 1 nouveau riche enemy",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 5 nouveau riche enemies",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 10 nouveau riche enemies",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat Mr. Shakedown (Kiryu)",
+					"goals": [
+						{
+							"name": "Defeat Mr. Shakedown 1 time (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat Mr. Shakedown 5 times (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat Mr. Shakedown 10 times (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat Mr. Shakedown (Majima)",
+					"goals": [
+						{
+							"name": "Defeat Mr. Shakedown 1 time (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat Mr. Shakedown 5 times (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat Mr. Shakedown 10 times (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat Sega",
+					"goals": [
+						{
+							"name": "Defeat Sega 1 time",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Earn a total in battle",
+					"goals": [
+						{
+							"name": "Earn a total of 1 mil in battle",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 5 mil in battle",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 mil in battle",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 100 mil in battle",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Use Heat Actions",
+					"goals": [
+						{
+							"name": "Use Heat Actions 20 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use Heat Actions 50 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use Heat Actions 100 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use Heat Actions 200 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use Heat Actions 300 times",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Use different Heat Actions (Kiryu)",
+					"goals": [
+						{
+							"name": "Use 10 different Heat Actions (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use 20 different Heat Actions (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use 40 different Heat Actions (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Use different Heat Actions (Majima)",
+					"goals": [
+						{
+							"name": "Use 10 different Heat Actions (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use 20 different Heat Actions (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Use 30 different Heat Actions (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Break objects in battle",
+					"goals": [
+						{
+							"name": "Break 20 objects in battle",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Break 50 objects in battle",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Break 100 objects in battle",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Acquire different weapons",
+					"goals": [
+						{
+							"name": "Acquire 10 different weapons",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 40 different weapons",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 70 different weapons",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 100 different weapons",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Acquire different gear items",
+					"goals": [
+						{
+							"name": "Acquire 10 different gear items",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 25 different gear items",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 45 different gear items",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 70 different gear items",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat enemies using weapons",
+					"goals": [
+						{
+							"name": "Defeat 10 enemies using weapons",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 50 enemies using weapons",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat 100 enemies using weapons",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Learn all moves (Kiryu)",
+					"goals": [
+						{
+							"name": "Learn all of Bacchus' moves (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Learn all of Kamoji's moves (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Learn all of Miss Tatsu's moves (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Learn all moves (Majima)",
+					"goals": [
+						{
+							"name": "Finish all bouts with Komeki (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Learn all of Fei Hu's moves (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Learn all of Areshi's moves (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Business - Kiryu",
+			"goal_lists": [
+				{
+					"name": "Collect total proceeds",
+					"goals": [
+						{
+							"name": "Collect total proceeds of 1 mil (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 10 mil (Kiryu)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 100 mil (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 1 bil (Kiryu)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy Leisure King properties",
+					"goals": [
+						{
+							"name": "Buy 1 Leisure King property",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 4 Leisure King properties",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 7 Leisure King properties",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy Electronics King properties",
+					"goals": [
+						{
+							"name": "Buy 2 Electronics King properties",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 5 Electronics King properties",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 8 Electronics King properties",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy Pleasure King properties",
+					"goals": [
+						{
+							"name": "Buy 3 Pleasure King properties",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 6 Pleasure King properties",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 9 Pleasure King properties",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy Gambling King properties",
+					"goals": [
+						{
+							"name": "Buy 2 Gambling King properties",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 5 Gambling King properties",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 8 Gambling King properties",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Buy Media King properties",
+					"goals": [
+						{
+							"name": "Buy 2 Media King properties",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 5 Media King properties",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Buy 8 Media King properties",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Raise shops to Rank S",
+					"goals": [
+						{
+							"name": "Raise 5 shops to Rank S",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Raise 20 shops to Rank S",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Raise 50 shops to Rank S",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Recruit managers",
+					"goals": [
+						{
+							"name": "Recruit 3 managers",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 8 managers",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Recruit advisors",
+					"goals": [
+						{
+							"name": "Recruit 3 advisors",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 8 advisors",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Recruit security",
+					"goals": [
+						{
+							"name": "Recruit 3 security",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 8 security",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Defeat the Kings",
+					"goals": [
+						{
+							"name": "Defeat the Leisure King",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat the Electronics King",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat the Pleasure King",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat the Gambling King",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Defeat the Media King",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Occupy 100% of an area",
+					"goals": [
+						{
+							"name": "Occupy 100% of the Leisure King area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Occupy 100% of the Electronics King area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Occupy 100% of the Pleasure King area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Occupy 100% of the Gambling King area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Occupy 100% of the Media King area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Business - Majima",
+			"goal_lists": [
+				{
+					"name": "Collect total proceeds",
+					"goals": [
+						{
+							"name": "Collect total proceeds of 10 mil (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 100 mil (Majima)",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 400 mil (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect total proceeds of 1 bil (Majima)",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Complete substories",
+					"goals": [
+						{
+							"name": "Complete Yuki's Substory",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Ai's Substory",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Saki's Substory",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Hibiki's Substory",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Chika's Substory",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete Mana's Substory",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Accessory Collections",
+					"goals": [
+						{
+							"name": "Yuki's Accessory Collection 10",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Yuki's Accessory Collection 20",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Yuki's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Ai's Accessory Collection 10",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Ai's Accessory Collection 20",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Ai's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Saki's Accessory Collection 10",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Saki's Accessory Collection 20",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Saki's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Hibiki's Accessory Collection 10",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Hibiki's Accessory Collection 20",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Hibiki's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Chika's Accessory Collection 10",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Chika's Accessory Collection 20",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Chika's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Mana's Accessory Collection 10",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Mana's Accessory Collection 20",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Mana's Accessory Collection 30",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Serve a total customers",
+					"goals": [
+						{
+							"name": "Serve a total of 100 customers",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Serve a total of 200 customers",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Serve a total of 500 customers",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Recruit hostesses",
+					"goals": [
+						{
+							"name": "Recruit 6 bronze hostesses",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 4 silver hostesses",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 4 gold hostesses",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Recruit 6 platinum hostesses",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Partner with shops in Mars area",
+					"goals": [
+						{
+							"name": "Partner with 3 shops in Mars area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 6 shops in Mars area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 10 shops in Mars area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Partner with shops in Jupiter area",
+					"goals": [
+						{
+							"name": "Partner with 3 shops in Jupiter area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 6 shops in Jupiter area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 10 shops in Jupiter area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Partner with shops in Venus area",
+					"goals": [
+						{
+							"name": "Partner with 3 shops in Venus area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 6 shops in Venus area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 10 shops in Venus area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Partner with shops in Mercury area",
+					"goals": [
+						{
+							"name": "Partner with 3 shops in Mercury area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 6 shops in Mercury area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 10 shops in Mercury area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Partner with shops in Moon area",
+					"goals": [
+						{
+							"name": "Partner with 3 shops in Moon area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 6 shops in Moon area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Partner with 10 shops in Moon area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Take over an area",
+					"goals": [
+						{
+							"name": "Take over Mars area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Take over Jupiter area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Take over Mercury area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Take over Venus area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Take over Moon area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Earn fans in an area",
+					"goals": [
+						{
+							"name": "Earn 1500 fans in Mars area",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn 3000 fans in Jupiter area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn 4000 fans in Mercury area",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn 5000 fans in Venus area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn 10000 fans in Moon area",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Substories - Kiryu",
+			"goal_lists": [
+				{
+					"name": "Complete Kiryu Substories",
+					"goals": [
+						{
+							"name": "Complete 5 Kiryu Substories",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 10 Kiryu Substories",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 20 Kiryu Substories",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 30 Kiryu Substories",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 40 Kiryu Substories",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Befriend people",
+					"goals": [
+						{
+							"name": "Befriend Officer Kikuchi",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Kitajima the Shroomer",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Mr. Libido - Akimoto",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Mr. Moneybags - Fukushima",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Pocket Circuit Fighter",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Miho",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Emiri",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend the Sushi Gin Chef",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Luka",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Substories - Majima",
+			"goal_lists": [
+				{
+					"name": "Complete Majima Substories",
+					"goals": [
+						{
+							"name": "Complete 5 Majima Substories",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 10 Majima Substories",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 20 Majima Substories",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 30 Majima Substories",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Complete 40 Majima Substories",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Befriend people",
+					"goals": [
+						{
+							"name": "Befriend Simon the Mystery Man",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Mr. Moneybags - Tanioka",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Mr. Libido - Habu",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Doll Girl",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend the boss at Komian",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend the barkeep",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend the Gandhara staff member",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Kyoko",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Pocket Circuit",
+			"goal_lists": [
+				{
+					"name": "Collect different tires",
+					"goals": [
+						{
+							"name": "Collect 5 different tires",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 10 different tires",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 20 different tires",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect different motors",
+					"goals": [
+						{
+							"name": "Collect 5 different motors",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 10 different motors",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 15 different motors",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect different gears",
+					"goals": [
+						{
+							"name": "Collect 5 different gears",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 10 different gears",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 20 different gears",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect different frames",
+					"goals": [
+						{
+							"name": "Collect 5 different frames",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 10 different frames",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 20 different frames",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Win / compete in races",
+					"goals": [
+						{
+							"name": "Compete in races 10 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Introductory Race",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Little Racers' Cup",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Rookies' Race",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Pro-Am Race",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Experts' Race",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the Champions' Cup",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win the King of Speed Cup",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Arcade",
+			"goal_lists": [
+				{
+					"name": "Get points in game",
+					"goals": [
+						{
+							"name": "Get 5 million points in Space Harrier",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 5 million points in Out Run",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 100,000 points in Fantasy Zone",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 5 million points in Super Hang-On",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Acquire different prizes",
+					"goals": [
+						{
+							"name": "Acquire 5 different prizes",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Acquire 15 different prizes",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Mahjong",
+			"goal_lists": [
+				{
+					"name": "Win shogi games without a take back",
+					"goals": [
+						{
+							"name": "Win 1 shogi game without a take back",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 3 shogi games without a take back",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win 5 shogi games without a take back",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Go out",
+					"goals": [
+						{
+							"name": "Go out 10 times",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Go out with Mangan 5 times",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Go out with Haneman 1 time",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Go out with Riichi Ippatsu",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Go out with Full Straight",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Earn a total in Mahjong",
+					"goals": [
+						{
+							"name": "Earn a total of 10 million in mahjong",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Fishing",
+			"goal_lists": [
+				{
+					"name": "Collect different freshwater fish",
+					"goals": [
+						{
+							"name": "Collect 5 different freshwater fish",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 15 different freshwater fish",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Collect different saltwater fish",
+					"goals": [
+						{
+							"name": "Collect 5 different saltwater fish",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Collect 18 different saltwater fish",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Gambling",
+			"goal_lists": [
+				{
+					"name": "Earn a total with gambling",
+					"goals": [
+						{
+							"name": "Earn a total of 1 million in cho-han",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 1 million in cee-lo",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 1 million in koi-koi",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 1 million in oicho-kabu",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Win a total in Catfights",
+					"goals": [
+						{
+							"name": "Win a total of 1mil yen in Catfights",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win a total of 10mil yen in Catfights",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Win a total of 100mil yen in Catfights",
+							"tags": [
+								"Hard"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Casino",
+			"goal_lists": [
+				{
+					"name": "Earn a total with the casino",
+					"goals": [
+						{
+							"name": "Earn a total of 10 million in poker",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 5 million in blackjack",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 million in baccarat",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 million in roulette",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Sports",
+			"goal_lists": [
+				{
+					"name": "Earn a total with sports",
+					"goals": [
+						{
+							"name": "Earn a total of 10 million in darts",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 million in pool",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 5 million by batting",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Earn a total of 10 million in split games",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Perform various things",
+					"goals": [
+						{
+							"name": "Perform 10 hat tricks",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Perform 3 combination shots",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Perform 3 carom shots",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Bowl 10 strikes",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Dancing",
+			"goal_lists": [
+				{
+					"name": "Dancing (Easy)",
+					"goals": [
+						{
+							"name": "Friday Night (Easy)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Queen of Passion (Easy)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I'm Gonna Make Her Mine (Easy)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I Wanna Take You Home (Easy)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Koi no DISCO QUEEN (Easy)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Dancing (Normal)",
+					"goals": [
+						{
+							"name": "Friday Night (Normal)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Queen of Passion (Normal)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I'm Gonna Make Her Mine (Normal)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I Wanna Take You Home (Normal)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Koi no DISCO QUEEN (Normal)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				},
+				{
+					"name": "Dancing (Hard)",
+					"goals": [
+						{
+							"name": "Friday Night (Hard)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I'm Gonna Make Her Mine (Hard)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Queen of Passion (Hard)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "I Wanna Take You Home (Hard)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Koi no DISCO QUEEN (Hard)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Karaoke",
+			"goal_lists": [
+				{
+					"name": "Get 90+ in a song",
+					"goals": [
+						{
+							"name": "Get 90+ in Judgement -Shinpan- (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in Bakamitai (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in x3 Shine (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in Heartbreak Mermaid (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in Rouge of Love (Kiryu)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in 24-hour Cinderella (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in x3 Shine (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in Heartbreak Mermaid (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Get 90+ in Rouge of Love (Majima)",
+							"tags": [
+								"Easy"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minigames - Dates",
+			"goal_lists": [
+				{
+					"name": "Befriend girlfriend",
+					"goals": [
+						{
+							"name": "Befriend Haruki",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Ayaka",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						},
+						{
+							"name": "Befriend Riku",
+							"tags": [
+								"Normal"
+							],
+							"possible_spaces": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"generator": "simple"
+}

@@ -1,0 +1,30 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.dom.json",
+	"include": [
+		"env.d.ts",
+		"components.d.ts",
+		"auto-imports.d.ts",
+		"custom.d.ts",
+		"src/**/*",
+		"src/**/*.vue",
+		"src/**/*.json"
+	],
+	"exclude": [
+		"src/**/__tests__/*"
+	],
+	"compilerOptions": {
+		"composite": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		},
+		"outDir": "generated",
+		"target": "ESNext",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowImportingTsExtensions": true,
+		"emitDeclarationOnly": true
+	},
+}
